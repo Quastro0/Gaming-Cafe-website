@@ -207,15 +207,8 @@ Includes number of Hours and Players
   Tip: swipe left/right (trackpad) or hold <kbd>Shift</kbd> + mouse-wheel to scroll the gallery.
 </p>
 
-<!-- Horizontal scroll area: keep images as inline elements (no block wrappers) -->
 <div style="overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch; padding:8px 0;">
-
-  <img src="Screenshot/ss1.png" style="height:420px; display:inline-block; margin-right:12px;" alt="screenshot 1" />
-  <img src="Screenshot/ss2.png" style="height:420px; display:inline-block; margin-right:12px;" alt="screenshot 2" />
-  <img src="Screenshot/ss3.png" style="height:420px; display:inline-block; margin-right:12px;" alt="screenshot 3" />
-  <img src="Screenshot/ss4.png" style="height:420px; display:inline-block; margin-right:12px;" alt="screenshot 4" />
-  <img src="Screenshot/ss5.png" style="height:420px; display:inline-block; margin-right:12px;" alt="screenshot 5" />
-
+<img src="Screenshot/ss1.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s1" /><img src="Screenshot/ss2.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s2" /><img src="Screenshot/ss3.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s3" /><img src="Screenshot/ss4.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s4" /><img src="Screenshot/ss5.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s5" />
 </div>
 
 ---
