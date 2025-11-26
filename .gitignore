@@ -1,0 +1,32 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+**/bin/
+**/obj/
+
+# NuGet packages
+packages/
+
+# SQL Server database files
+*.mdf
+*.ldf
+
+# Cache files
+*.cache
+*.log
+
+# User-specific files
+*.user
+*.rsuser
+
+# Visual Studio Code workspace
+.vscode/
+
+# Publish output
+**/publish/
+**/PublishProfiles/
