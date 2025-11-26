@@ -201,6 +201,7 @@ GamingType stores type (e.g., PC, PS5, VR)
 Includes number of Hours and Players
 
 ---
+
 ## 📸 Screenshots (Preview)
 
 <p style="margin:6px 0; font-size:0.95rem; color:#444;">
@@ -208,8 +209,9 @@ Includes number of Hours and Players
 </p>
 
 <div style="overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch; padding:8px 0;">
-<img src="Screenshot/ss1.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s1" /><img src="Screenshot/ss2.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s2" /><img src="Screenshot/ss3.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s3" /><img src="Screenshot/ss4.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s4" /><img src="Screenshot/ss5.png" style="height:420px; display:inline-block; margin-right:12px;" alt="s5" />
+  <span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss1.png" style="height:420px; display:block; border-radius:6px;" alt="s1" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss2.png" style="height:420px; display:block; border-radius:6px;" alt="s2" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss3.png" style="height:420px; display:block; border-radius:6px;" alt="s3" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss4.png" style="height:420px; display:block; border-radius:6px;" alt="s4" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss5.png" style="height:420px; display:block; border-radius:6px;" alt="s5" /></span>
 </div>
+
 
 ---
 
