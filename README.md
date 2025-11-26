@@ -10,13 +10,13 @@
 
 <p align="center">
   <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/stargazers">
-    <img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME?style=social" />
+    <img src="https://img.shields.io/github/stars/Quastro0/Gaming-Cafe-website?style=social" />
   </a>
   <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/network/members">
-    <img src="https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO_NAME?style=social" />
+    <img src="https://img.shields.io/github/forks/Quastro0/Gaming-Cafe-website?style=social" />
   </a>
   <a href="https://github.com/YOUR_USERNAME?tab=followers">
-    <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=social" />
+    <img src="https://img.shields.io/github/followers/Quastro0?style=social" />
   </a>
 </p>
 
@@ -202,16 +202,20 @@ Includes number of Hours and Players
 
 ---
 
+
 ## 📸 Screenshots (Preview)
 
 <p style="margin:6px 0; font-size:0.95rem; color:#444;">
-  Tip: swipe left/right (trackpad) or hold <kbd>Shift</kbd> + mouse-wheel to scroll the gallery.
+  Click a thumbnail to view the full-size screenshot in a new tab. or click here
 </p>
 
-<div style="overflow-x:auto; white-space:nowrap; -webkit-overflow-scrolling:touch; padding:8px 0;">
-  <span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss1.png" style="height:420px; display:block; border-radius:6px;" alt="s1" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss2.png" style="height:420px; display:block; border-radius:6px;" alt="s2" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss3.png" style="height:420px; display:block; border-radius:6px;" alt="s3" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss4.png" style="height:420px; display:block; border-radius:6px;" alt="s4" /></span><span style="display:inline-block; min-width:420px; margin-right:12px;"><img src="Screenshot/ss5.png" style="height:420px; display:block; border-radius:6px;" alt="s5" /></span>
-</div>
-
+<p align="center" style="line-height:0;">
+  <a href="Screenshot/ss1.png" target="_blank" rel="noopener"><img src="Screenshot/ss1.png" width="320" style="margin-right:10px; border-radius:6px;" alt="s1" /></a>
+  <a href="Screenshot/ss2.png" target="_blank" rel="noopener"><img src="Screenshot/ss2.png" width="320" style="margin-right:10px; border-radius:6px;" alt="s2" /></a>
+  <a href="Screenshot/ss3.png" target="_blank" rel="noopener"><img src="Screenshot/ss3.png" width="320" style="margin-right:10px; border-radius:6px;" alt="s3" /></a>
+  <a href="Screenshot/ss4.png" target="_blank" rel="noopener"><img src="Screenshot/ss4.png" width="320" style="margin-right:10px; border-radius:6px;" alt="s4" /></a>
+  <a href="Screenshot/ss5.png" target="_blank" rel="noopener"><img src="Screenshot/ss5.png" width="320" style="border-radius:6px;" alt="s5" /></a>
+</p>
 
 ---
 
@@ -238,12 +242,20 @@ Visual Studio will **automatically restore** everything needed.
 
 ## 👨‍💻 Author
 
-**YOUR NAME**  
-- Email: your-email@example.com  
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE  
-- GitHub: https://github.com/YOUR_USERNAME  
-
+Quastro
 ---
+
+## 🤝 Contributions & Usage
+
+Feel free to use or improve this project!  
+If you do use the code, UI, or database from this repository, we kindly ask that you:
+
+⭐ **Give credit** by linking back to our repo  
+🔗 https://github.com/Quastro0/Gaming-Cafe-website 
+
+This small gesture really helps us and keeps the project growing.  
+Pull requests and suggestions are always welcome!
+
 
 ## 📄 License
 This project is licensed under the **MIT License**.  
