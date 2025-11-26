@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainTemplate.master.cs" Inherits="Gaming_Cafe.MainTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gaming Cafe</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: yellow !important;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Navigation Bar -->
+        <div style="background-color: #1a1a1a; padding: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);">
+            <nav style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto;">
+                
+                <!-- Left Side - Logo -->
+                <div style="flex: 1;">
+                    <img src="HomeImages\logo.png" alt="Gaming Cafe Logo" style="height: 30px; margin-left: 10px;">
+                </div>
+                
+                <!-- Center - Navigation Links -->
+                <div style="flex: 3; display: flex; justify-content: center;">
+                    <asp:HyperLink NavigateUrl="~/HomePage.aspx" Text="Home" runat="server" />
+                    <asp:HyperLink NavigateUrl="~/AboutUs.aspx" Text="About Us" runat="server" />
+                    <asp:HyperLink NavigateUrl="~/BookNow.aspx" Text="Book Now" runat="server" />
+                    <asp:HyperLink NavigateUrl="~/ContactUs.aspx" Text="Contact Us" runat="server" />
+                </div>
+                
+                <!-- Right Side - Login Icon -->
+                <asp:HyperLink ID="lnkDashboard" runat="server" NavigateUrl="~/Dashboard.aspx" 
+    Text="Dashboard" Visible="false" ForeColor="#00ffcc" />
+
+                <div style="flex: 1; display: flex; justify-content: flex-end;">
+                    <asp:HyperLink NavigateUrl="~/Login.aspx" runat="server" style="font-size: 20px;">
+                        🎮 Login
+                    </asp:HyperLink>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Content Placeholder -->
+        <div style="max-width: 1200px; margin: auto; padding: 20px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer -->
+<footer style="background-color: #1a1a1a; padding: 15px; text-align: center; margin-top: 20px; box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);">
+    <p style="margin: 0; font-size: 14px;">&copy; 2025 Gaming Cafe. All Rights Reserved By Shashank - 048</p>
+    <p style="margin: 5px 0 0; font-size: 12px;">Follow us on 
+        <a href="#" style="color: #00aced; text-decoration: none;">Twitter</a> | 
+        <a href="#" style="color: #3b5998; text-decoration: none;">Facebook</a> | 
+        <a href="#" style="color: #c4302b; text-decoration: none;">YouTube</a>
+    </p>
+</footer>
+    </form>
+</body>
+</html>

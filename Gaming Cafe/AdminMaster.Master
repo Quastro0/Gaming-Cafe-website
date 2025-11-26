@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.Master.cs" Inherits="Gaming_Cafe.AdminMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title>Admin Panel</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #222; color: white; }
+        .nav { background-color: #181818; padding: 15px; text-align: center; }
+        .nav a { color: yellow; margin: 10px; text-decoration: none; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <div class="nav">
+            <a href="AdminDashboard.aspx">Home</a>
+            <a href="AdminBookings.aspx">Bookings</a>
+            <a href="AdminUsers.aspx">User Data</a>
+            <a href="AdminContactUs.aspx">Contact Us Data</a>
+            <a href="AdminLogin.aspx" style="color: red;">Logout</a>
+        </div>
+
+        <div style="margin: 20px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

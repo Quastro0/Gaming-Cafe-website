@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/HomeImages/1.jpg</ImageUrl>
+		<NavigateUrl>~/BookNow.aspx</NavigateUrl>
+		<AlternateText>Book your gaming session now!</AlternateText>
+		<Impressions>50</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/HomeImages/2.jpg</ImageUrl>
+		<NavigateUrl>~/BookNow.aspx</NavigateUrl>
+		<AlternateText>Experience high-end gaming!</AlternateText>
+		<Impressions>50</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/HomeImages/3.jpg</ImageUrl>
+		<NavigateUrl>~/BookNow.aspx</NavigateUrl>
+		<AlternateText>Join our gaming tournaments!</AlternateText>
+		<Impressions>50</Impressions>
+	</Ad>
+</Advertisements>
